@@ -359,19 +359,11 @@ section {
   padding: 3rem;
   border-radius: 2rem;
   border: 2px solid var(--main-color);
-  box-shadow: 0 0 15px var(--main-color);
   transition: 0.3s ease-in-out;
   cursor: pointer;
   text-align: left;
   width: 25rem; 
 }
-
-.contact-card:hover {
-  box-shadow: 0 0 25px var(--main-color),
-              0 0 50px var(--main-color);
-  transform: scale(1.05);
-}
-
 .contact-card i {
   font-size: 3rem;
   color: var(--main-color);
@@ -466,5 +458,11 @@ section {
   }
   .contact form {
     flex-direction: column;
+  }
+  .contact-cards {
+    display: block;
+  }
+  .contact-card {
+    margin-bottom: 3rem;
   }
 }
