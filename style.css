@@ -474,4 +474,8 @@ section {
   .contact-card {
     margin-bottom: 5rem;
   }
+  .btn-group {
+    margin-top: 2rem;
+    flex-direction: column;
+  }
 }
